@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP</title>
+</head>
+<body>
+    <h1>
+       Es1 -  controlla la console
+    </h1>
+<h2>Es2 - Inserisci il tuo animale nella lista</h2>
+
+    <form id="petForm">
+        <label for="petName">Nome Animale:</label>
+        <input type="text" id="petName" required><br><br>
+
+        <label for="ownerName">Nome Proprietario:</label>
+        <input type="text" id="ownerName" required><br><br>
+
+        <label for="species">Tipo:</label>
+        <input type="text" id="species" required><br><br>
+
+        <label for="breed">Razza:</label>
+        <input type="text" id="breed" required><br><br>
+
+        <button type="button" onclick="createPet()">Aggiungi animale</button>
+    </form>
+
+    <h2>Lista Animali</h2>
+    <ul id="petList"></ul>
+
+    <script src="./myScript.js"></script>
+</body>
+</html>
